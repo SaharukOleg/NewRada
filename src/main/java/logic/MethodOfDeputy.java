@@ -74,6 +74,8 @@ public class MethodOfDeputy {
         deputyList.remove(deputy1);
     }
 
+    // kagdcvgwlejrvghwleiv uwrvtw
+
     public void sortedBySizeofBribe(List<Deputy> deputyList) {
         deputyList.sort((Comparator.comparing(Deputy::getSumOfBribe)).reversed());
         deputyList.forEach(System.out::println);
